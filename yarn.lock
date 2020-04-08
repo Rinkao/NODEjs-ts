@@ -462,4 +462,16 @@
   integrity sha512-NDn5tu3tcv4W30jNhmc2hyD5c56G6cXx4TesJubhxrJeCvuuMpttxr0OnNCqbZGhFjLrg+NIhxxC+BK5F6yS3w==
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.3"
-    "@babel/plugin-syntax-opt
+    "@babel/plugin-syntax-optional-chaining" "^7.8.0"
+
+"@babel/plugin-proposal-unicode-property-regex@^7.4.4", "@babel/plugin-proposal-unicode-property-regex@^7.8.3":
+  version "7.8.8"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-unicode-property-regex/-/plugin-proposal-unicode-property-regex-7.8.8.tgz#ee3a95e90cdc04fe8cd92ec3279fa017d68a0d1d"
+  integrity sha512-EVhjVsMpbhLw9ZfHWSx2iy13Q8Z/eg8e8ccVWt23sWQK5l1UdkoLJPN5w69UA4uITGBnEZD2JOe4QOHycYKv8A==
+  dependencies:
+    "@babel/helper-create-regexp-features-plugin" "^7.8.8"
+    "@babel/helper-plugin-utils" "^7.8.3"
+
+"@babel/plugin-syntax-async-generators@^7.8.0":
+  version "7.8.4"
+  resolved "htt
