@@ -840,4 +840,18 @@
 "@babel/plugin-transform-spread@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-spread/-/plugin-transform-spread-7.8.3.tgz#9c8ffe8170fdfb88b114ecb920b82fb6e95fe5e8"
-  integrity sha512-CkuTU9mbmAoFOI1tklFWYYbzX5qCIZVXPVy0jpXgGwkplCndQAa58s2jr66fTeQnA64bDox0HL4U56CFYoyC7
+  integrity sha512-CkuTU9mbmAoFOI1tklFWYYbzX5qCIZVXPVy0jpXgGwkplCndQAa58s2jr66fTeQnA64bDox0HL4U56CFYoyC7g==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.8.3"
+
+"@babel/plugin-transform-sticky-regex@^7.8.3":
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-sticky-regex/-/plugin-transform-sticky-regex-7.8.3.tgz#be7a1290f81dae767475452199e1f76d6175b100"
+  integrity sha512-9Spq0vGCD5Bb4Z/ZXXSK5wbbLFMG085qd2vhL1JYu1WcQ5bXqZBAYRzU1d+p79GcHs2szYv5pVQCX13QgldaWw==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.8.3"
+    "@babel/helper-regex" "^7.8.3"
+
+"@babel/plugin-transform-template-literals@^7.8.3":
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-template-literals/-/p
