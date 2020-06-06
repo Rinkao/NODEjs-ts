@@ -1035,4 +1035,20 @@
   integrity sha512-jAZQj0+kn4WTHO5dUZkZKhbFrqZE7K5LAQ5JysMnmvGij+wOdr+8lWqPeW0BcF4wFwrEXXtdGO7wcV6YPJcf3w==
   dependencies:
     "@babel/code-frame" "^7.8.3"
-    "@babel/generator"
+    "@babel/generator" "^7.9.0"
+    "@babel/helper-function-name" "^7.8.3"
+    "@babel/helper-split-export-declaration" "^7.8.3"
+    "@babel/parser" "^7.9.0"
+    "@babel/types" "^7.9.0"
+    debug "^4.1.0"
+    globals "^11.1.0"
+    lodash "^4.17.13"
+
+"@babel/traverse@^7.10.4":
+  version "7.11.5"
+  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.11.5.tgz#be777b93b518eb6d76ee2e1ea1d143daa11e61c3"
+  integrity sha512-EjiPXt+r7LiCZXEfRpSJd+jUMnBd4/9OUv7Nx3+0u9+eimMwJmG0Q98lw4/289JCoxSE8OolDMNZaaF/JZ69WQ==
+  dependencies:
+    "@babel/code-frame" "^7.10.4"
+    "@babel/generator" "^7.11.5"
+    "@babel/helper-function-name" "^7.10
