@@ -8069,4 +8069,21 @@ postcss-normalize-whitespace@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.2.tgz#bf1d4070fe4fcea87d1348e825d8cc0c5faa7d82"
   integrity sha512-tO8QIgrsI3p95r8fyqKV+ufKlSHh9hMJqACqbv2XknufqEDhDvbguXGBBqxw9nsQoXWf0qOqppziKJKHMD4GtA==
-  depe
+  dependencies:
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-normalize@8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-normalize/-/postcss-normalize-8.0.1.tgz#90e80a7763d7fdf2da6f2f0f82be832ce4f66776"
+  integrity sha512-rt9JMS/m9FHIRroDDBGSMsyW1c0fkvOJPy62ggxSHUldJO7B195TqFMqIf+lY5ezpDcYOV4j86aUp3/XbxzCCQ==
+  dependencies:
+    "@csstools/normalize.css" "^10.1.0"
+    browserslist "^4.6.2"
+    postcss "^7.0.17"
+    postcss-browser-comments "^3.0.0"
+    sanitize.css "^10.0.0"
+
+postcss-ordered-values@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/postcss-ordered-valu
